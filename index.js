@@ -114,7 +114,7 @@ class TuyaLan {
       } catch (ex) {}
 
       //if (!/^[0-9a-f]+$/i.test(device.id)) return this.log.error('%s, id for %s, is not a valid id.', device.id, device.name || 'unnamed device');
-      if (!/^(?:[\w!@#$%^&*()_+-]+)$/i.test(device.key))
+      if (!/^[^\s]+$/i.test(device.key))
         return this.log.error(
           "%s, key for %s (%s), is not a valid key.",
           device.key.replace(/.{4}$/, "****"),
