@@ -44,7 +44,7 @@ const CLASS_DEF = {
   simpledimmer: SimpleDimmerAccessory,
   simpledimmer2: SimpleDimmer2Accessory,
   simpleblinds: SimpleBlindsAccessory,
-  simpleblinds2: SimpleBlinds2Accessory,
+  //   simpleblinds2: SimpleBlinds2Accessory,
   simpleheater: SimpleHeaterAccessory,
   switch: SwitchAccessory,
   fan: SimpleFanAccessory,
